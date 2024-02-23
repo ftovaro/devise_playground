@@ -1,24 +1,6 @@
-# README
+# Simple Devise playground
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It has a `user` model.
+The Registrations and Sessions controller are being overwritten, for the RegistrationsController the controller is being overwritten to add the role of the user depeding on the user's email.
+There are some sessions cookies and browser cookies created in the HomeController.
+After the sign in, in the ApplicationController there is a method that redirects depending on the role of the user.
